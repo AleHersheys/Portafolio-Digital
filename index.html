@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio digital - Alejandro Salas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9598acb20e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="./img/icon.png">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Alejandro Salas</h1>
+                <p>Desarrollador web</p>
+            </div>
+            <div class="informacion">
+                <p>Estudiante de la Universidad Rafael Belloso Chacín, con conocimientos básicos en el desarrollo web con los lenguajes de HTML, CSS, JavaScript y PHP. Aspirante a desarrollador de videojuegos.</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo" >Todos</a>
+                <a href="#">Videojuegos</a>
+                <a href="#">Criptomonedas</a>
+                <a href="#">Modas</a>
+            </div>
+        </header>
+        <section class="grid" id="grid">
+            <div class="item" data-categoria="criptomonedas" data-etiquetas="criptomonedas compañías binance" data-descripcion="https://alehersheys.github.io/Binance-OnePage/">
+                <div class="item-contenido">
+                    <img src="./img/binance.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="modas" data-etiquetas="modas compañías fendi" data-descripcion="https://alehersheys.github.io/FENDI-OnePage/">
+                <div class="item-contenido">
+                    <img src="./img/fendi.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="videojuegos" data-etiquetas="videojuegos fire emblem" data-descripcion="https://alehersheys.github.io/FireEmblem-Materializecss/">
+                <div class="item-contenido">
+                    <img src="./img/fireemblem.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="videojuegos" data-etiquetas="videojuegos compañías gamestop" data-descripcion="https://alehersheys.github.io/GameStop-6Secciones/, https://alehersheys.github.io/GameStop-OnePage/">
+                <div class="item-contenido">
+                    <img src="./img/gamestop.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="videojuegos" data-etiquetas="videojuegos persona" data-descripcion="https://alehersheys.github.io/Persona-Bootstrap/">
+                <div class="item-contenido">
+                    <img src="./img/persona5.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="https://www.facebook.com/AleHersheys123" target="_blank" class="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://twitter.com/Ale_Hersheys" target="_blank" class="Twitter"><i class="fab fa-twitter"></i></i></a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.instagram.com/alejandrosalasa/?hl=es" target="_blank" class="Instagram"><i class="fab fa-instagram"></i></i></a>
+                </div>
+            </div>
+            <div class="creado-por">
+                <p>Sitio diseñado por <a>Alejandro Salas</a></p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
